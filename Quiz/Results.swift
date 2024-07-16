@@ -17,13 +17,13 @@ struct Results: View {
                 HStack{
                     Image(weatherSelected)
                         .resizable()
-                        .aspectRatio(.fill)
+                        .aspectRatio(contentMode: .fit)
                     Image(characterSelected)
                         .resizable()
-                        .aspectRatio(.fill)
+                        .aspectRatio(contentMode: .fit)
                     Image(petSelected)
                         .resizable()
-                        .aspectRatio(.fill)
+                        .aspectRatio(contentMode: .fit)
                 }
                 Spacer()
             }
